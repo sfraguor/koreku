@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ratchet template page</title>
+
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Include the compiled Ratchet CSS -->
+    <link href="./css/ratchet.css" rel="stylesheet">
+    <link href="./css/styles.css" rel="stylesheet">
+
+    <!-- Include the compiled Ratchet JS -->
+    <script src="./js/ratchet.js"></script>
+  </head>
+  <body>
+
+    <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+    <div class="content">
+      <h2 class="text-center logo logo-position content-padded">Koreku</h2>
+      <h6 class="text-center text-center content-padded">La app que todo coleccionista <br> estaba esperando</h6>
+      <div class="card login-position">
+        <form class="input-group">
+          <input type="text" placeholder="user">
+          <input type="password" placeholder="password">
+        </form>
+      </div>
+      <div class="content-padded">
+          <a href="./pages/mycollections.html"><button class="btn btn-primary btn-block">Login</button></a>
+          <button class="btn btn-block btn-outlined">Register</button>
+          <button class="btn btn-link pull-right">Recuperar contraseña</button>
+      </div>
+    </div>
+  </body>
+</html>

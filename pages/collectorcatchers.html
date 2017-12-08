@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ratchet template page</title>
+
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Include the compiled Ratchet CSS -->
+    <link href="./css/ratchet.css" rel="stylesheet">
+    <link href="./css/styles.css" rel="stylesheet">
+
+    <!-- Include the compiled Ratchet JS -->
+    <script src="./js/ratchet.js"></script>
+  </head>
+  <body>
+
+    <!-- Make sure all your bars are the first things in your <body> -->
+    <header class="bar bar-nav">
+      <a class="icon icon-bars pull-left" href="#mainmenu"></a>
+      <a href="./profile.html" class="icon icon-person pull-right"></a>
+      <h1 class="title">My catchers</h1>
+    </header>
+    <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+    <div class="content">
+      
+      <div class="content-padded image-grid"> 
+        <div class="image-wrapper">
+          <a href="./selectedcollection.html"><img class="media-object imagen"></a>
+        </div> 
+        <div class="image-wrapper">
+            <img class="media-object imagen">
+        </div>
+        <div class="last-image-wrapper">
+            <img class="media-object imagen">
+        </div>  
+      </div>
+      <div class="content-padded image-grid"> 
+        <div class="image-wrapper">
+          <img class="media-object imagen">
+        </div> 
+        <div class="image-wrapper">
+            <img class="media-object imagen">
+        </div>
+        <div class="last-image-wrapper">
+            <img class="media-object imagen">
+        </div>  
+      </div>
+      <div class="content-padded image-grid"> 
+        <div class="image-wrapper">
+          <img class="media-object imagen">
+        </div> 
+        <div class="image-wrapper">
+            <img class="media-object imagen">
+        </div>
+        <div class="last-image-wrapper">
+            <img class="media-object imagen">
+        </div>  
+      </div>
+      <div class="content-padded image-grid"> 
+        <div class="image-wrapper">
+          <img class="media-object imagen"> 
+        </div> 
+        <div class="image-wrapper">
+            <img class="media-object imagen">
+        </div>
+        <div class="last-image-wrapper">
+            <img class="media-object imagen">
+        </div>  
+      </div>
+    </div>
+    <div id="mainmenu" class="popover menu">
+      <header class="bar bar-nav">
+        <h1 style="background-color: #cde1f1" class="title">Menu</h1>
+      </header>
+      <ul class="table-view">
+        <a href="./mycollections.html"><li class="table-view-cell">Mis colecciones</li></a>
+        <a href="./usersamecollection.html"><li class="table-view-cell">Compañeros de coleccion</li></a>
+        <a href="./search.html"><li class="table-view-cell">Buscar</li></a>
+        <a href="./collectorcatchers.html"><li class="table-view-cell">Rastreadores</li></a>
+      </ul>
+    </div>
+  </body>
+</html>
